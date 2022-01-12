@@ -18,7 +18,7 @@ def filter_word(word: str, correct: dict, partially: dict, incorrect: set) -> bo
     unknown = {c for i, c in enumerate(word) if i not in correct}
     if unknown & incorrect:
         return False
-    if partial and not (unknown & set(partially.values())):
+    if partially and not (unknown & set(partially.values())):
         return False
     if any(word[i] == c for i, c in partially.items()):
         return False
