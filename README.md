@@ -42,3 +42,4 @@ What were the colours? Use "g" for green, "y" for yellow and "b" for black, ie. 
 
 The correct word is: favor
 ```
+![wordle game](https://raw.githubusercontent.com/gavin-lb/gavin-lb/main/wordle.png)
