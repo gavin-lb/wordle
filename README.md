@@ -1,7 +1,7 @@
 # Wordle
 A script for solving the word game [Wordle](https://www.powerlanguage.co.uk/wordle/). 
 
-It filters the set of all possible 5 letter words until it finds the correct answer. It use a scoring system for words in order to try and converge on the correct letters a bit quicker. It counts the frequency of letters at each index amongst the entire possible word set, then gives each word a score by summing of the frequency of their letters. However, in order to encourage words with 5 unique letters (as using a repeated letter misses an opportunity for ruling out an additional letter), it only takes the maximum frequency for a repeated letter and scores the other repeat(s) a zero. 
+It filters the set of all possible 5 letter words until it finds the correct answer. A scoring system is used to sort the words in order to try and converge on the correct letters a bit quicker. It counts the frequency of letters at each index amongst the entire possible word set, then gives each word a score by summing the frequency of it's letters. However, in order to encourage words with 5 unique letters (as using a repeated letter misses an opportunity for ruling out an additional letter), it only takes the maximum frequency for a repeated letter and scores the other repeat(s) a zero. 
 
 The user is given multiple options for the entered word at each step because sometimes the script will suggest a word that the game does not recognise (due to differing dictionaries), so there are a couple backup words to use in such an event.
 
