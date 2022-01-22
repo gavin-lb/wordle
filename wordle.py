@@ -61,7 +61,6 @@ def main():
         if len(words) == 1:
             print('\nThe correct word is:', *words)
             break
-        print(correct, partially, incorrect)
         
 if __name__ == '__main__':
     main()
